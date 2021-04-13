@@ -9,16 +9,9 @@ from pathlib import Path
 from os import getenv
 from dotenv import load_dotenv
 
-# Token stuff
-load_dotenv()
-token = getenv('TOKEN')
-
-# Database stuff
-filepath = Path(__file__).parent.absolute()
-dbname = "Bot.sql"
-
 # Detection stuff
 # The command which you use to bump your server
+# You usually wouldn't want to change this
 command = "!d bump"
 
 # Roles
@@ -30,6 +23,14 @@ roles = [
     [2, 830872506272710677],
     [5, 830872533837414511]
 ]
+
+# Token stuff
+load_dotenv()
+token = getenv('TOKEN')
+
+# Database stuff
+filepath = Path(__file__).parent.absolute()
+dbname = "Bot.sql"
 
 # Define discord bot
 bot = commands.Bot(command_prefix="t!")
