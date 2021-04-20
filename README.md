@@ -7,7 +7,7 @@
 - Click "New Application"
 - Give the application a name and click "Create"
 - Go to the "Bot" tab and click "Add Bot"
-- You can get the bot token on "Bot" by clicking "Copy"
+- You can get the bot token later by going to "Bot" tab and clicking "Copy"
 
 ## Invite bot account to your server
 - Go to the "OAuth2" tab
@@ -17,9 +17,11 @@
 
 ## Installation
 - Install [Python (3.6 - 3.8)](https://www.python.org/downloads/)
-- Clone this repo `git clone https://github.com/CrumblyLiquid/DishboardTracker`
-- Navigate into the DishboardTracker directory
-- Install dependencies from requirements.txt `py -m pip install -r requirements.txt`
+- Open a command prompt
+- Make new folder (`mkdir <foldername>`) and navigate into the folder (`cd <path>`)
+- Clone this repo (`git clone https://github.com/CrumblyLiquid/DishboardTracker`)
+- Navigate into the DishboardTracker directory (`cd <path>`)
+- Install dependencies from requirements.txt (`py -m pip install -r requirements.txt`)
 - Rename .env_example to .env and replace "TOKEN HERE" with your bot token
 
 ## Setup
